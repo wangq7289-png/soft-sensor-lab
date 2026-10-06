@@ -21,7 +21,8 @@
 
 按 `Command + 空格`，输入 `终端`，回车打开终端。
 
-把下面两行里的名字和邮箱换成你自己的 GitHub 账号（这不是登录，只是给每次存档打个作者标签）：
+✅ **本仓库已经帮你配好了**（`user.name` = `wangq7289-png`，`user.email` = `wangq7289@gmail.com`），这一步可以跳过。
+下面两行留给「以后新建别的仓库」用（`--global` 是全局生效）：
 
 ```bash
 git config --global user.name "wangq7289-png"

@@ -24,8 +24,8 @@
 把下面两行里的名字和邮箱换成你自己的 GitHub 账号（这不是登录，只是给每次存档打个作者标签）：
 
 ```bash
-git config --global user.name "你的GitHub用户名"
-git config --global user.email "你的GitHub注册邮箱"
+git config --global user.name "wangq7289-png"
+git config --global user.email "wangq7289@gmail.com"
 ```
 
 ---
@@ -43,7 +43,7 @@ git config --global user.email "你的GitHub注册邮箱"
 建好后页面会给你一个地址，形如：
 
 ```
-https://github.com/你的用户名/softsensor.git
+https://github.com/wangq7289-png/softsensor.git
 ```
 
 **复制它**，下一步要用。
@@ -62,7 +62,7 @@ export HTTPS_PROXY=http://127.0.0.1:7897
 export HTTP_PROXY=http://127.0.0.1:7897
 
 # 告诉 git 远程仓库在哪（换成你刚复制的地址）
-git remote add origin https://github.com/你的用户名/softsensor.git
+git remote add origin https://github.com/wangq7289-png/softsensor.git
 
 # 把默认分支命名为 main
 git branch -M main

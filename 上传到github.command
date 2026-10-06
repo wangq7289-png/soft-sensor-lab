@@ -41,7 +41,7 @@ else
   echo "❌ 上传失败。请对照下面两条："
   echo "   1) 代理有没有开？（脚本里写的是 7897 端口，不对就改文件开头那两行）"
   echo "   2) GitHub 上那个仓库建了吗？如果提示 Repository not found，"
-  echo "      就是还没建 —— 去 https://github.com/new 建一个叫 softsensor 的 Public 空仓库。"
+  echo "      就是还没建 —— 去 https://github.com/new 建一个叫 soft-sensor-lab 的 Public 空仓库。"
 fi
 echo ""
 echo "按回车关闭..."; read

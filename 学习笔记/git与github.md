@@ -35,7 +35,7 @@ git config --global user.email "wangq7289@gmail.com"
 
 1. 打开 https://github.com 并登录
 2. 右上角 `+` → `New repository`
-3. **Repository name** 填 `softsensor`
+3. **Repository name** 填 `soft-sensor-lab`
 4. 选 **Public**（作品集要公开）
 5. ⚠️ **不要**勾 "Add a README file"、不要选 .gitignore、不要选 license
    （本地已经有内容了，勾了反而会冲突）
@@ -44,7 +44,7 @@ git config --global user.email "wangq7289@gmail.com"
 建好后页面会给你一个地址，形如：
 
 ```
-https://github.com/wangq7289-png/softsensor.git
+https://github.com/wangq7289-png/soft-sensor-lab.git
 ```
 
 **复制它**，下一步要用。
@@ -63,7 +63,7 @@ export HTTPS_PROXY=http://127.0.0.1:7897
 export HTTP_PROXY=http://127.0.0.1:7897
 
 # 告诉 git 远程仓库在哪（换成你刚复制的地址）
-git remote add origin https://github.com/wangq7289-png/softsensor.git
+git remote add origin https://github.com/wangq7289-png/soft-sensor-lab.git
 
 # 把默认分支命名为 main
 git branch -M main
